@@ -1,0 +1,345 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Lucía",
+      "apellidos": "Martínez",
+      "telefono": "666123456",
+      "responsableNombre": "Ana Gómez",
+      "responsableRol": "Madre",
+      "nivel": "Primaria",
+      "curso": "5",
+      "asignaturas": [
+        "Matemáticas",
+        "Lengua",
+        "Inglés"
+      ],
+      "asistencia": [
+        "2025-07-01",
+        "2025-07-03",
+        "2025-07-05"
+      ],
+      "examenes": [
+        {
+          "fecha": "2025-07-10",
+          "asignatura": "Matemáticas"
+        },
+        {
+          "fecha": "2025-07-15",
+          "asignatura": "Lengua"
+        }
+      ],
+      "calificaciones": [
+        {
+          "asignatura": "Matemáticas",
+          "fecha": "2025-07-02",
+          "nota": "8"
+        },
+        {
+          "asignatura": "Lengua",
+          "fecha": "2025-07-07",
+          "nota": "7"
+        },
+        {
+          "asignatura": "Inglés",
+          "fecha": "2025-07-09",
+          "nota": "9"
+        }
+      ],
+      "horario": [
+        {
+          "dia": "Lunes",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "asignatura": "Matemáticas"
+        },
+        {
+          "dia": "Miércoles",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "asignatura": "Lengua"
+        },
+        {
+          "dia": "Viernes",
+          "horaInicio": "09:00",
+          "horaFin": "10:30",
+          "asignatura": "Inglés"
+        }
+      ],
+      "infoRelevante": "Alergia a frutos secos",
+      "notasInternas": "Muy participativa en clase",
+      "pagos": [
+        {
+          "mes": "Enero",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 120
+        },
+        {
+          "mes": "Febrero",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 120
+        },
+        {
+          "mes": "Marzo",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 120
+        },
+        {
+          "año": 2025,
+          "mes": "Julio",
+          "cantidad": 50,
+          "pagado": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos",
+      "apellidos": "Sánchez",
+      "telefono": "677987654",
+      "responsableNombre": "Luis Sánchez",
+      "responsableRol": "Padre",
+      "nivel": "Secundaria",
+      "curso": "2",
+      "asignaturas": [
+        "Física y Química",
+        "Biología"
+      ],
+      "asistencia": [
+        "2025-07-02",
+        "2025-07-04",
+        "2025-07-06"
+      ],
+      "examenes": [
+        {
+          "fecha": "2025-07-12",
+          "asignatura": "Física y Química"
+        },
+        {
+          "fecha": "2025-07-19",
+          "asignatura": "Biología"
+        }
+      ],
+      "calificaciones": [
+        {
+          "asignatura": "Física y Química",
+          "fecha": "2025-07-03",
+          "nota": "5"
+        },
+        {
+          "asignatura": "Biología",
+          "fecha": "2025-07-08",
+          "nota": "6"
+        }
+      ],
+      "horario": [
+        {
+          "dia": "Martes",
+          "horaInicio": "11:00",
+          "horaFin": "12:30",
+          "asignatura": "Física y Química"
+        },
+        {
+          "dia": "Jueves",
+          "horaInicio": "11:00",
+          "horaFin": "12:30",
+          "asignatura": "Biología"
+        }
+      ],
+      "infoRelevante": "Necesita apoyo en comprensión lectora",
+      "notasInternas": "Mejora progresiva en laboratorio",
+      "pagos": [
+        {
+          "mes": "Enero",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 150
+        },
+        {
+          "mes": "Febrero",
+          "año": 2025,
+          "pagado": false,
+          "cantidad": 150
+        },
+        {
+          "mes": "Marzo",
+          "año": 2025,
+          "pagado": false,
+          "cantidad": 150
+        },
+        {
+          "mes": "Febrero",
+          "año": 2025,
+          "cantidad": 29,
+          "pagado": true
+        },
+        {
+          "año": 2025,
+          "mes": "Julio",
+          "cantidad": 50,
+          "pagado": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Sofía",
+      "apellidos": "López",
+      "telefono": "688555777",
+      "responsableNombre": "María López",
+      "responsableRol": "Madre",
+      "nivel": "Bachillerato",
+      "curso": "1",
+      "ramaBach": "Ciencias y Tecnología",
+      "asignaturas": [
+        "Matemáticas II",
+        "Química",
+        "Dibujo Técnico"
+      ],
+      "asistencia": [
+        "2025-07-01",
+        "2025-07-02",
+        "2025-07-03",
+        "2025-07-04"
+      ],
+      "examenes": [
+        {
+          "fecha": "2025-07-11",
+          "asignatura": "Química"
+        },
+        {
+          "fecha": "2025-07-18",
+          "asignatura": "Matemáticas II"
+        }
+      ],
+      "calificaciones": [
+        {
+          "asignatura": "Matemáticas II",
+          "fecha": "2025-07-05",
+          "nota": "9"
+        },
+        {
+          "asignatura": "Química",
+          "fecha": "2025-07-07",
+          "nota": "8"
+        },
+        {
+          "asignatura": "Dibujo Técnico",
+          "fecha": "2025-07-09",
+          "nota": "7"
+        }
+      ],
+      "horario": [
+        {
+          "dia": "Lunes",
+          "horaInicio": "10:30",
+          "horaFin": "12:00",
+          "asignatura": "Matemáticas II"
+        },
+        {
+          "dia": "Miércoles",
+          "horaInicio": "12:30",
+          "horaFin": "14:00",
+          "asignatura": "Química"
+        },
+        {
+          "dia": "Viernes",
+          "horaInicio": "10:30",
+          "horaFin": "12:00",
+          "asignatura": "Dibujo Técnico"
+        }
+      ],
+      "infoRelevante": "Becada por excelencia académica",
+      "notasInternas": "Destaca en trabajos prácticos",
+      "pagos": [
+        {
+          "mes": "Enero",
+          "año": 2025,
+          "pagado": false,
+          "cantidad": 200
+        },
+        {
+          "mes": "Febrero",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 200
+        },
+        {
+          "mes": "Marzo",
+          "año": 2025,
+          "pagado": true,
+          "cantidad": 200
+        },
+        {
+          "año": 2025,
+          "mes": "Julio",
+          "cantidad": 50,
+          "pagado": false
+        }
+      ]
+    }
+  ],
+  "economia": {
+    "ingresosGenerales": [
+      {
+        "año": "2025",
+        "mes": "Enero",
+        "cantidad": 500,
+        "concepto": "Materiales extra"
+      },
+      {
+        "año": "2025",
+        "mes": "Febrero",
+        "cantidad": 300,
+        "concepto": "Donaciones"
+      },
+      {
+        "año": "2025",
+        "mes": "Julio",
+        "cantidad": 400,
+        "concepto": "Excursión"
+      }
+    ],
+    "gastos": [
+      {
+        "año": "2025",
+        "mes": "Julio",
+        "cantidad": 1500,
+        "categoria": "Sueldos"
+      },
+      {
+        "año": "2025",
+        "mes": "Enero",
+        "cantidad": 300,
+        "categoria": "Luz"
+      },
+      {
+        "año": "2025",
+        "mes": "Enero",
+        "cantidad": 200,
+        "categoria": "Agua"
+      },
+      {
+        "año": "2025",
+        "mes": "Febrero",
+        "cantidad": 1550,
+        "categoria": "Sueldos"
+      },
+      {
+        "año": "2025",
+        "mes": "Febrero",
+        "cantidad": 320,
+        "categoria": "Luz"
+      },
+      {
+        "año": "2025",
+        "mes": "Febrero",
+        "cantidad": 5000,
+        "categoria": "Agua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+/* Día ya guardado */
+.react-calendar__tile.highlight-day {
+  background-color: #bbf7d0 !important; /* Verde claro */
+
+}
+
+/* Día seleccionado pero no guardado aún */
+.react-calendar__tile.pending-day {
+  background-color: #fef9c3 !important; /* Amarillo pastel */
+  color: black;
+  border: 2px dashed #facc15;
+}
